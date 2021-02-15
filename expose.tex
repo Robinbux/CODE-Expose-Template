@@ -1,0 +1,40 @@
+\documentclass[11pt, a4paper]{expose}
+
+\exposeTitle{Title of your thesis or capstone project}
+
+% Use "Bachelor Thesis Exposé" or "Capstone Project Exposé"
+\exposeType{Bachelor Thesis Exposé}
+
+\name{Max Mustermann}
+\email{max.mustermann@code.berlin}
+\studyProgram{Bachelor of Science (B.Sc.) - Software Engineering}
+\semester{6. semester}
+\enrollmentNumber{12.34.567}
+\supervisorOne{Alan Turing}
+% Optional only for bachelor thesis
+\supervisorTwo{Ada Lovelace}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+% Use in both
+\input{sections/goals}
+\input{sections/roadmap}
+
+% Use in bachelor thesis exposé
+%\input{sections/thesis/approach}
+%\input{sections/thesis/structure}
+
+% Use in capstone project exposé
+\input{sections/capstone/outcome}
+\input{sections/capstone/plan}
+\input{sections/capstone/setup}
+\input{sections/capstone/assessment_modalities}
+
+
+
+
+\printbibliography
+\end{document}
